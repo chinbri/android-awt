@@ -52,6 +52,10 @@ add_library( # Specifies the name of the library.
              # Provides a relative path to your source file(s).
              ${SOURCES} )
 
+target_link_options(awtcompat-native-components PRIVATE
+        "-Wl,--no-rosegment"
+        "-Wl,-z,max-page-size=16384")
+
 include_directories(
     headers/
     common/

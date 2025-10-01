@@ -47,7 +47,7 @@ project.afterEvaluate {
                 from components.release
                 groupId 'ro.andob.androidawt'
                 artifactId 'androidawt'
-                version '1.0.4'
+                version '1.0.5'
             }
         }
     }
