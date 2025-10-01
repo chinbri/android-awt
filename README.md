@@ -1,7 +1,9 @@
 
 ## android-awt
 
-### This is a fork of [windwardadmin/android-awt](https://github.com/windwardadmin/android-awt)
+### This is a fork of [andob/android-awt](https://github.com/andob/android-awt)
+
+Adapted to 16KB pages size in Android.
 
 This project provides java.awt and javax.imagio since we can't use 
 these classes on Android. Code is took from Apache Harmony, Apache Commons Imaging and [witwall/appengine-awt](https://github.com/witwall/appengine-awt).
